@@ -16,4 +16,13 @@
 .avs-card {
   width: 150px;
   margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.avs-card .card-subtitle, .avs-card .card-title {
+  margin: 5px 0;
 }
