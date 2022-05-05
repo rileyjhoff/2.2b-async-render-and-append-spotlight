@@ -26,3 +26,28 @@
 .avs-card .card-subtitle, .avs-card .card-title {
   margin: 5px 0;
 }
+
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+}
+
+.dog-card {
+  width: 250px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.dog-card .card-subtitle, .dog-card .card-title {
+  margin: 5px 0;
+}
+
+.dog-card .card-img-top {
+  height: 150px;
+}
