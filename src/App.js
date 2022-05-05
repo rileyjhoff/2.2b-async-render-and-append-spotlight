@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AvsList from './components/AvsList';
 import { getAvs, getDogs } from './services/fetch-utils';
+import DogList from './components/DogList';
 
 function App() {
   const [avsData, setAvsData] = useState([]);
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <AvsList players={avsData} />
+      <DogList dogs={dogsData} />
     </div>
   );
 }
