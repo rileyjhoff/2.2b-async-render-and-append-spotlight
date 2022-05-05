@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import AvsList from './components/AvsList';
 import { getAvs } from './services/fetch-utils';
 
 function App() {
@@ -10,7 +11,11 @@ function App() {
     setAvsData(avs);
   }, []);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <AvsList players={avsData} />
+    </div>
+  );
 }
 
 export default App;
