@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: aqua;
 }
 
 .avs-list {
@@ -11,6 +12,9 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 90vw;
+  padding: 20px 0;
+  background-color: beige;
+  border: 4px ridge grey;
 }
 
 .avs-card {
@@ -32,6 +36,9 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 90vw;
+  padding: 20px 0;
+  background-color: beige;
+  border: 4px ridge magenta
 }
 
 .dog-card {
