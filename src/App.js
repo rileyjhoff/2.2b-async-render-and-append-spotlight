@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import AvsList from './components/AvsList';
 import { getAvs } from './services/fetch-utils';
 
