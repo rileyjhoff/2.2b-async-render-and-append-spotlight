@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function RPGItem() {
+export default function RpgItem() {
   return <div>RPGItem</div>;
 }

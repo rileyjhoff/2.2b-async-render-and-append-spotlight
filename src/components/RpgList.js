@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function RPGList() {
+export default function RpgList() {
   return <div>RPGList</div>;
 }

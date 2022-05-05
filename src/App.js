@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AvsList from './components/AvsList';
 import { getAvs, getDogs, getRpg } from './services/fetch-utils';
 import DogList from './components/DogList';
-import RPGList from './components/RPGList';
+import RpgList from './components/RpgList';
 
 function App() {
   const [avsData, setAvsData] = useState([]);
@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <AvsList players={avsData} />
       <DogList dogs={dogsData} />
-      <RPGList classes={rpgData} />
+      <RpgList classes={rpgData} />
     </div>
   );
 }
