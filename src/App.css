@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 .avs-card .card-subtitle, .avs-card .card-title {
@@ -42,13 +42,13 @@
 }
 
 .dog-card {
-  width: 250px;
+  width: 260px;
   margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 .dog-card .card-subtitle, .dog-card .card-title {
@@ -57,4 +57,37 @@
 
 .dog-card .card-img-top {
   height: 150px;
+}
+
+.rpg-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+  padding: 20px 0;
+  background-color: beige;
+  border: 4px ridge lime
+}
+
+.rpg-card {
+  width: 180px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.rpg-card .card-subtitle, .rpg-card .card-title {
+  margin: 5px 0;
+}
+
+.rpg-card h5 {
+  margin: 10px 0;
+}
+
+.rpg-card .card-img-top {
+  height: 20px;
+  width: 20px;
 }

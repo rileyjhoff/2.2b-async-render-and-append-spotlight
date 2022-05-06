@@ -13,7 +13,7 @@ export async function getDogs() {
 }
 
 export async function getRpg() {
-  const response = await client.from('dog_breeds').select('*');
+  const response = await client.from('rpg_classes').select('*');
 
   return checkError(response);
 }
