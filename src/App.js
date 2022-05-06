@@ -35,6 +35,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Supabase import and display a list</h1>
       <AvsList players={avsData} />
       <DogList dogs={dogsData} />
       <RpgList classes={rpgData} />
