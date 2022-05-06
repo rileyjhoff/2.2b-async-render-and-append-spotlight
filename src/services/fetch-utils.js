@@ -17,3 +17,9 @@ export async function getRpg() {
 
   return checkError(response);
 }
+
+export async function getLeagues() {
+  const response = await client.from('sports_leagues').select('*');
+
+  return checkError(response);
+}

@@ -91,3 +91,45 @@
   height: 20px;
   width: 20px;
 }
+
+.league-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90vw;
+  padding: 20px 0;
+  background-color: beige;
+  border: 4px ridge orangered
+}
+
+.league-card {
+  width: 220px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.league-card .card-subtitle, .league-card .card-title {
+  margin: 5px 0;
+}
+
+.league-card h5 {
+  margin: 10px 0;
+}
+
+.league-card img {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-container {
+  box-sizing: border-box;
+  width: 200px;
+  height: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
